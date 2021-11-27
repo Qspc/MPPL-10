@@ -44,7 +44,7 @@
             
                     <div class="container-fluid">
                         <h2 class="fw-bold">Akun</h2>
-
+{{-- 
                         <div class="row justify-content-between">
                             <button class="fw-bold border-0 m-2 col-5 py-2">
                                 Data Pribadi
@@ -52,7 +52,7 @@
                             <button class="fw-bold border-0 m-2 col-5 py-2">
                                 Dokumen
                             </button>
-                        </div>
+                        </div> --}}
 
 
                     <form action="" method="get" >
@@ -80,6 +80,14 @@
                                     <label for="nama" class="form-label" style="font-size: 18px">Agama :</label>
                                     <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
                                 </div>
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu tanda Pengenal (KTP)</label>
+                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                </div>
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu tanda Mahasiswa (KTM)</label>
+                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                </div>
                             </div>
                             <div class="col-5 my-2 fw-bold">
                                 <div class="point mb-3">
@@ -102,6 +110,10 @@
                                     <label for="nama" class="form-label" style="font-size: 18px">Pekerjaan Ibu :</label>
                                     <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
                                 </div>
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu Keluarga (KK)</label>
+                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                </div>
                             </div>
                         </div>
                         
@@ -109,8 +121,7 @@
                             <button type="submit" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
                                 color: #4ABD78;
                                 background-color: #F3FFE4;
-                                box-shadow: -1px -1px 5px #ffffff73, 2px 2px 5px #000000;
-                                ">
+                                box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);                                ">
                                 simpan
                             </button>
                         </div>

@@ -76,7 +76,6 @@ a{
 }
 a:hover, a:focus{
     text-decoration: none;
-    outline: 0;
 }
 a:focus{
     color: #ffffff;
@@ -117,7 +116,8 @@ ul li{
     letter-spacing: 0;
     position: relative;
     border-radius: 25px;
-    box-shadow: -1px -1px 2px #ffffff73, 2px 2px 1px #000000;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
     z-index: 1;
     cursor: pointer;
     outline: none;

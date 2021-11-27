@@ -80,6 +80,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
+    text-decoration: none;
 }
 .mainmenu ul li a:hover{
     color: #5DEC96;
@@ -183,10 +184,11 @@ body {
 }
 .navigator_btn.btn_bg a{
     background: #1B2124;
-    box-shadow: -1px -1px 2px #ffffff73, 2px 2px 1px #000000;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.3);
     border-opacity: 0.2;
-    color: #5DEC96;
     border-radius: 25px;
+    color: #5DEC96;
+    text-decoration: none;
 }
 /* .navigator_btn .btn_bg a:hover{
     background: #5DEC96;
@@ -2585,7 +2587,8 @@ body {
 .callToAction .serviceArea a.common_btn{
     -webkit-box-shadow: 0px 0px 25px 0 rgba(46, 55, 136, 0.30);
     -moz-box-shadow: 0px 0px 25px 0 rgba(46, 55, 136, 0.30);
-    box-shadow: -1px -1px 2px #ffffff73, 2px 2px 1px #000000;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;    
     background: #1B2124;
     opacity: 1;
     height: 55px;
@@ -2926,6 +2929,7 @@ body {
     line-height: 45px;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 .footer_2 .links ul li a:hover{
     color: #5DEC96;
