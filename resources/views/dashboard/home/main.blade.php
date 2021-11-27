@@ -56,8 +56,7 @@
                                 <button type="submit" class="mt-3 mr-5 px-4 py-2 border-0 rounded-1 fw-bold" style="
                                 color: #4ABD78;
                                 background-color: #F3FFE4;
-                                box-shadow: -1px -1px 5px #ffffff73, 2px 2px 5px #000000;
-                                ">
+                                box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);                                ">
                                 Ajukan
                                 </button>
                             </div>
@@ -65,23 +64,20 @@
 
                             <div class="container mb-5">
                                 <div class="row justify-content-between">
-                                    <div class="col-3 bg-white shadow-lg mb-2 rounded p-lg-2 text-center">
+                                    <div id="pinjam1" class="col-3 shadow bg-white mb-2 rounded p-lg-2 text-center">
                                         <h5 style="color: #787878">Total Pinjaman</h5>
                                         <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
-                                        
                                     </div>
-                                    <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
+                                    <div class="col-3 shadow bg-white mb-2 rounded-xs p-lg-2 text-center">
                                         <h5 style="color: #787878">Total Pinjaman</h5>
                                         <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
-                                        
                                     </div>
-                                    <div class="col-3 bg-white shadow-lg mb-2 rounded-xs p-lg-2 text-center">
+                                    <div class="col-3 shadow bg-white mb-2 rounded-xs p-lg-2 text-center">
                                         <h5 style="color: #787878">Total Pinjaman</h5>
                                         <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
-                                        
                                     </div>
                                 </div>
                             </div>

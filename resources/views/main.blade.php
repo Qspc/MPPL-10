@@ -88,7 +88,7 @@
                                 <p>Sekarang pinjaman untuk mahasiswa dapat berjalan dengan cepat. Dapatkan pinjaman terpercaya untuk biaya pendidikan anda.</p>
                             </div>
                             <div class="welcome_button">
-                                <a href="#" class="common_btn">Ajukan</a>
+                                <a href="/pinjaman" class="common_btn">Ajukan</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                     <i class="flaticon-mortgage-loan"></i>
                                     <div class="clearfix"></div>
                                     <h4>Aman & Terpercaya</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                                    <p>Pinjam uang dengan jaminan aman.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
@@ -162,7 +162,7 @@
                                     <i class="flaticon-loan-1"></i>
                                     <div class="clearfix"></div>
                                     <h4>Minjem Cepat</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                                    <p>Pinjam uang tanpa antri dan tanpa ribet.</p>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,7 @@
                                             <h1>01</h1>
                                         </div>
                                         <h4>Login</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum.</p>
+                                        <p>Lakukan login jika sudah memiliki akun dan nikmati layanan dari Minjemin..</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@
                                             <h1>02</h1>
                                         </div>
                                         <h4>Verifikasi KTM/KTP</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum. </p>
+                                        <p>Pastikan kamu terdaftar pada daftar mahasiswa dengan adanya Kartu Tanda Mahasiswa. </p>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +251,7 @@
                                             <h1>03</h1>
                                         </div>
                                         <h4>Perjanjian</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus felis cras sagittis sit integer elementum. </p>
+                                        <p>Selamat pembiayaan kamu disetujui ! Sekarang kamu bisa fokus pada pendidikan mu. </p>
                                     </div>
                                 </div>
                             </div>

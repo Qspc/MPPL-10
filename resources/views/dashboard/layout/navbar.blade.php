@@ -9,9 +9,9 @@
                     <li class="nav-item nav-link">
                     </li>
                     <li class="nav-item dropdown notifications d-flex align-self-center align-items-center" id="navbarNotifications">
-                        <a href="#" class="nav-link dropdown-toggle notifications--active" data-toggle="dropdown" aria-expanded="false">
+                        {{-- <a href="#" class="nav-link dropdown-toggle notifications--active" data-toggle="dropdown" aria-expanded="false">
                             <i class="material-icons align-middle" style="color: black">notifications</i>
-                        </a>
+                        </a> --}}
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown" id="notificationsDropdown">
                         </div>
                     </li>

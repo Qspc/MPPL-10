@@ -44,8 +44,46 @@
                     <!-- main content -->
             
                     <div class="container-fluid">
-                        <h2 class="fw-bold">Pinjaman</h2>
+                        <h2 class="fw-bold">Pilih Opsi Pinjaman</h2>
+
+                        <form action="" method="get" >
+                            @csrf
+                            <div class="row justify-content-between mt-3 ml-3">
+                                    
+                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label ml-4" for="flexRadioDefault1" >
+                                      Rp 1.000.000
+                                    </label>
+                                </div>
+                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label ml-4" for="flexRadioDefault2">
+                                      Rp 2.000.000
+                                    </label>
+                                </div>
+                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label ml-4" for="flexRadioDefault3">
+                                      Rp 5.000.000
+                                    </label>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row d-flex justify-content-center align-content-center my-5">
+                                <button type="submit" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
+                                    color: #4ABD78;
+                                    background-color: #F3FFE4;
+                                    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);                                ">
+                                    pinjam
+                                </button>
+                            </div>
+    
+                        </form>
                     </div>
+
+
                 </div>
                 
             </div>
