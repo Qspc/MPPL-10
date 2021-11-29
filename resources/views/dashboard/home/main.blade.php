@@ -46,7 +46,7 @@
                     <div class="container-fluid">
                         <div class="row d-flex justify-content-between">
                             <div class="col-6">
-                                <h2>Dashboard</h2>
+                                <h2 class="fw-bold text-dark">Dashboard</h2>
                                 <h4>Ringkasan pinjaman</h4>
                             </div>
                             <div class="col-3">
@@ -70,13 +70,13 @@
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
                                     </div>
                                     <div class="col-3 shadow bg-white mb-2 rounded-xs p-lg-2 text-center">
-                                        <h5 style="color: #787878">Total Pinjaman</h5>
-                                        <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
+                                        <h5 style="color: #787878">Pengajuan Pinjaman</h5>
+                                        <h3 style="color: #DF3A3A">1</h3>
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
                                     </div>
                                     <div class="col-3 shadow bg-white mb-2 rounded-xs p-lg-2 text-center">
-                                        <h5 style="color: #787878">Total Pinjaman</h5>
-                                        <h3 style="color: #DF3A3A">Rp 2.000.000</h3>
+                                        <h5 style="color: #787878">Pinjaman Lunas</h5>
+                                        <h3 style="color: #DF3A3A">1</h3>
                                         <a href="#"><h5 style="font-size: 14px; color: #4ABD78">detail</h5></a>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                 <table class="table m-0">
                                     <thead>
                                         <tr class="bg-fade" style="background-color: #E6E6E6">
-                                            <th style="width: 120px; background-color: #E6E6E6">ID</th>
+                                            <th style="width: 120px; background-color: #E6E6E6">No</th>
                                             <th style="background-color: #e6e6e6">pinjaman</th>
                                             <th style="background-color: #e6e6e6">Jumlah</th>
                                             <th style="background-color: #e6e6e6">Tgl Pinjam</th>
@@ -96,30 +96,21 @@
                                             <th style="background-color: #e6e6e6">Bunga</th>
                                             <th style="background-color: #e6e6e6">Total</th>
                                             <th style="width: 100px; background-color: #e6e6e6">Status</th>
+                                            <th style="background-color: #e6e6e6">Detail</th>
+
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle">08 Oct 2017</td>
-                                            <td class="align-middle">
-                                                <div><i class="material-icons align-middle md-18 text-link-color">contacts</i> <a href="#"> Karen Smith</a>
-                                                    <em class="text-muted ml-1">(Sales Representative)</em>
-                                                </div>
-            
-                                            </td>
-            
-                                            <td class="align-middle">
-                                                <a href="#">#1928</a>
-                                            </td>
-                                            <td class="align-middle">&dollar;1100.50</td>
-                                            <td class="align-middle">
-                                                <div class="badge badge-danger">failed</div>
-                                            </td>
+                                            <td class="align-middle">1</td>
+                                            <td class="align-middle">Paket C</td>
+                                            <td class="align-middle">5.000.000</td>
+                                            <td class="align-middle">28 Nov 2021</td>
+                                            <td class="align-middle">6 Mei 2022</td>
                                             <td class="align-middle" style="width:40px">
                                                 <a class="btn btn-white btn-sm" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="material-icons md-18 align-middle">more_vert</i>
                                                 </a>
-            
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">
                                                         <i class="material-icons md-14 align-middle">assignment</i>
@@ -136,8 +127,12 @@
                                                     </a>
                                                 </div>
                                             </td>
+                                            <td class="align-middle">5.025.000</td>
+                                            <td class="align-middle btn btn-primary mt-2" style="width:75px; height:35px">Success</td>
+                                            <td class="align-middle">
+                                                <a href="#">Detail</a>
+                                            </td>
                                         </tr>
-            
                                     </tbody>
                                 </table>
                             </div>
