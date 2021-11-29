@@ -16,8 +16,11 @@
 <body>
     <div class="form-body">
         <div class="row">
-            <div class="form-holder">
-                <div class="form-content">
+            <!-- <div class="logoo">
+                    <img src="images/vector_ipb.png" alt="">
+            </div> -->
+            <div style="background-color:#1B2124" class="form-holder">
+                <div style="background-color:#1B2124" class="form-content">
                     <div class="form-items">
                         <div class="website-logo-inside">
                             <a href="index.html">
@@ -26,22 +29,24 @@
                                 </div>
                             </a>
                         </div>
-                        <h1 class="white">Minjemin<span>.</span></h1>
-                        <h3>Get more things done with Loggin platform.</h3>
-                        <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                        <h1 style="color:white;font-weight:bold" class="white">Minjemin<span style="font-weight:bold;color:rgb(0, 186, 136)">.</span></h1>
+                        <!-- <p>Login</p> -->
+                        <!-- <p>Access to the most powerfull tool in the entire design and web industry.</p> -->
                         <div class="page-links">
-                            <a href="login12.html" class="active">Login</a><a href="register12.html">Register</a>
+                            <!-- <a href="login12.html" class="active">Login</a> -->
+                            <!-- <a href="register12.html">Register</a> -->
                         </div>
                         <form>
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget12.html">Forget password?</a>
+                                <button id="submit" type="submit" class="ibtn">Login</button> 
+                                <!-- <a href="forget12.html">Forget password?</a> -->
                             </div>
                         </form>
-                        <div class="other-links">
+                        <!-- <div class="other-links">
                             <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
