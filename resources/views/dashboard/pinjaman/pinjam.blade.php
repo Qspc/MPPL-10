@@ -44,31 +44,50 @@
                     <!-- main content -->
             
                     <div class="container-fluid">
-                        <h2 class="fw-bold">Pilih Opsi Pinjaman</h2>
+                        <h2 class="fw-bold">Pinjaman</h2>
 
                         <form action="" method="get" >
                             @csrf
-                            <div class="row justify-content-between mt-3 ml-3">
-                                    
-                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label ml-4" for="flexRadioDefault1" >
-                                      Rp 1.000.000
-                                    </label>
+                            <div class="row justify-content-between mt-5 ml-3">
+
+                            <div class="col-6">
+                                <h3 class="mb-3 fw-bold">Pilih paket pinjaman :</h3>
+                                <div class="col-6 ml-3 mt-4">
+                                    <div class="mt-3">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                          <h3 style="font-size: 18px">Paket A - Rp 1.000.000</h3>  
+                                        </label>
+                                    </div>
+                                    <div class="mt-3">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                          <h3 style="font-size: 18px">Paket B - Rp 2.000.000</h3>  
+                                        </label>
+                                    </div>
+                                    <div class="mt-3">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                          <h3 style="font-size: 18px">Paket C - Rp 5.000.000</h3>  
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label ml-4" for="flexRadioDefault2">
-                                      Rp 2.000.000
-                                    </label>
+
+                            </div>
+                            <div class="col-6 my-2 fw-bold">
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Pemilik rekening :</label>
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
-                                <div class="col-4 my-2 fw-bold" style="font-size: 28px">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label ml-4" for="flexRadioDefault3">
-                                      Rp 5.000.000
-                                    </label>
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Bank :</label>
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
-                                
+                                <div class="point mb-3">
+                                    <label for="nama" class="form-label" style="font-size: 18px">No Rekening :</label>
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                </div>
+                            </div>
                             </div>
                             
                             <div class="row d-flex justify-content-center align-content-center my-5">
@@ -212,6 +231,30 @@
 
         });
     </script>
+
+{{-- <style>
+    .form-check-label input{
+        display: none;
+    }
+    label {
+        padding: 10px;
+        width: 200px;
+        height: 100px;
+        display: inline-block;
+        /* border: 3px #4ABD78 solid; */
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 20px #c3c3c367;
+        cursor: pointer;
+    }
+    span{
+        color: #4ABD78;
+        margin-top: 5px;
+    }
+    .form-check-label:checked{
+        border: 3px #4ABD78 solid;
+    }
+</style> --}}
 
 
 </body>

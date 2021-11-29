@@ -35,3 +35,7 @@ Route::get('/login', function () {
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('/haha', function () {
+    return view('coba');
+});

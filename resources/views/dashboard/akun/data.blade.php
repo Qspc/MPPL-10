@@ -103,11 +103,11 @@
                                     <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Pekerjaan Ayah :</label>
+                                    <label for="nama" class="form-label" style="font-size: 18px">No HP ayah :</label>
                                     <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Pekerjaan Ibu :</label>
+                                    <label for="nama" class="form-label" style="font-size: 18px">No HP ibu Ibu :</label>
                                     <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
                                 </div>
                                 <div class="point mb-3">
