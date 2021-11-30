@@ -26,6 +26,7 @@
 
     <!-- Simplebar -->
     <link type="text/css" href="assets/vendor/simplebar.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -118,62 +119,16 @@
                         </div>
                         
                         <div class="row d-flex justify-content-center align-content-center my-5">
-                            <button type="submit" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
+                            <button id="myBtn" type="" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
                                 color: #4ABD78;
                                 background-color: #F3FFE4;
-                                box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);                                ">
-                                simpan
+                                box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
+                            ">
+                            Simpan
                             </button>
                         </div>
 
                     </form>
-
-                        {{-- <div class="row justify-content-between">
-                            <div class="col-5 my-2">
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Lengkap :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">NIM :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Tempat, tanggal lahir :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Jenis kelamin :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Agama :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
-                                </div>
-                            </div>
-                            <div class="col-5 my-2">
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Lengkap :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">NIM :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Tempat, tanggal lahir :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Jenis kelamin :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
-                                </div>
-                                <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Agama :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
-                                </div>
-                            </div>
-                        </div> --}}
 
 
                     </div>
@@ -215,8 +170,6 @@
     <script src="assets/vendor/material-design-kit.js"></script>
     <!-- MDK -->
 
-
-
     <script>
         (function() {
             'use strict';
@@ -248,7 +201,7 @@
     <script src="assets/vendor/bootstrap-datepicker.min.js"></script>
     <script src="assets/js/datepicker.js"></script>
 
-    <script>
+    {{-- <script>
         $(function() {
             window.morrisDashboardChart = new Morris.Area({
                 element: 'morris-area-chart',
@@ -304,7 +257,7 @@
             });
 
         });
-    </script>
+    </script> --}}
 
 
 </body>
