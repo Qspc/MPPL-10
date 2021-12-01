@@ -56,13 +56,13 @@
                                     <a href="#">Beranda</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Tentang</a>
+                                    <a href="#tentang">Tentang</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Cara Kerja</a>
+                                    <a href="#cara">Cara Kerja</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Bantuan</a>
+                                    <a href="#faq">FAQ</a>
                                 </li>
                             </ul>
                         </nav>
@@ -103,7 +103,7 @@
         <!-- section satu-->
 
         <!-- Tentang -->
-        <section class="tentang callToAction">
+        <section class="tentang callToAction" id="tentang">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -196,7 +196,7 @@
                 <!-- Common section -->
         
         <!-- cara kerja -->
-        <section class="commonSection applicatioProces_2">
+        <section class="commonSection applicatioProces_2" id="cara">
                 <div class="service_border">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
@@ -265,7 +265,7 @@
 
 
         <!-- Common section -->
-        <section class="commonSection latestPostSec">
+        <section class="commonSection latestPostSec" id="faq">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">

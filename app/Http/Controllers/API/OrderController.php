@@ -39,8 +39,16 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         $validasi=$request->validate([
-            
-            'no_telp_keluarga'=>'required',
+            'nama_lengkap'=>'required',
+            'nim'=> 'required|numeric',
+            'ttl'=> 'required',
+            'jenis_kelamin'=> 'required',
+            'agama' => 'required',
+            'no_hp' => 'required|numeric',
+            'nama_ayah'=>'required',
+            'nama_ibu'=>'required',
+            'no_hp_ayah'=>'required|numeric',
+            'no_hp_ibu'=>'required|numeric',
             'ktm'=> 'required|file|mimes:png,jpg,jpeg,gif',
             'kk'=> 'required|file|mimes:png,jpg,jpeg,gif'
         ]);
@@ -97,8 +105,16 @@ class OrderController extends Controller
     public function update(Request $request, $id)
     {
         $validasi=$request->validate([
-            
-            'no_telp_keluarga'=>'required',
+            'nama_lengkap'=>'required',
+            'nim'=> 'required|numeric',
+            'ttl'=> 'required',
+            'jenis_kelamin'=> 'required',
+            'agama' => 'required',
+            'no_hp' => 'required|numeric',
+            'nama_ayah'=>'required',
+            'nama_ibu'=>'required',
+            'no_hp_ayah'=>'required|numeric',
+            'no_hp_ibu'=>'required|numereic',
             'ktm'=> '',
             'kk'=> ''
         ]);
