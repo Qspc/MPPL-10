@@ -16,41 +16,38 @@
 <body>
     <div class="form-body">
         <div class="row">
-            <div class="form-holder">
-                <div class="form-content">
+            <!-- <div class="logoo">
+                    <img src="images/vector_ipb.png" alt="">
+            </div> -->
+            <div style="background-color:#1B2124" class="form-holder">
+                <div style="background-color:#1B2124" class="form-content">
                     <div class="form-items">
                         <div class="website-logo-inside">
                             <a href="index.html">
-                                {{-- <img class="logo-size" class="img-thumbnail" src="style/images/logo.png" alt="" style="width: 200px"> --}}
-                                <p class="fw-bold" style="
-                                font-family: Poppins;
-                                font-weight: 600;
-                                font-size: 48px;
-                                display: flex;
-                                align-items: center;
-                                text-align: center;
-                                color: #FFFFFF;
-                                ">Minjemin<span style="color: #5DEC96">.</span></p>
+                                </div>
                             </a>
                         </div>
-                        {{-- <h3>Get more things done with Loggin platform.</h3>
-                        <p>Access to the most powerfull tool in the entire design and web industry.</p> --}}
+                        <h1 style="color:white;font-weight:bold" class="white">Minjemin<span style="font-weight:bold;color:rgb(0, 186, 136)">.</span></h1>
+                        <!-- <p>Login</p> -->
+                        <!-- <p>Access to the most powerfull tool in the entire design and web industry.</p> -->
                         <div class="page-links">
-                            <a href="login12.html" class="active">Masuk</a>
+                            <!-- <a href="login12.html" class="active">Login</a> -->
+                            <!-- <a href="register12.html">Register</a> -->
                         </div>
                         <form>
-                            @csrf
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button>
+                                <button id="submit" type="submit" class="ibtn">Login</button> 
+                                <!-- <a href="forget12.html">Forget password?</a> -->
                             </div>
                         </form>
+                        <!-- <div class="other-links">
+                            <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
+                        </div> -->
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
