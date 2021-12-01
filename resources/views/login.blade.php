@@ -24,8 +24,6 @@
                     <div class="form-items">
                         <div class="website-logo-inside">
                             <a href="index.html">
-                                <div class="logo">
-                                    <img class="logo-size" src="images/logo-light.svg" alt="">
                                 </div>
                             </a>
                         </div>
@@ -50,8 +48,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

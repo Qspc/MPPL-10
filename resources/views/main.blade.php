@@ -88,7 +88,7 @@
                                 <p>Sekarang pinjaman untuk mahasiswa dapat berjalan dengan cepat. Dapatkan pinjaman terpercaya untuk biaya pendidikan anda.</p>
                             </div>
                             <div class="welcome_button">
-                                <a href="/pinjaman" class="common_btn">Ajukan</a>
+                                <a href="/dashboard" class="common_btn">Ajukan</a>
                             </div>
                         </div>
                     </div>

@@ -164,9 +164,15 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle">5.025.000</td>
-                                            <td class="align-middle btn btn-primary mt-2" style="width:75px; height:35px">Success</td>
+                                            <td class="align-middle mt-2 fw-bold" style="
+                                            background: #E6D753;
+                                            position: absolute;
+                                            width: 80px;
+                                            height: 35px;
+                                            color: #ffffff;
+                                            ">pending</td>
                                             <td class="align-middle">
-                                                <button id="myBtn">Detail</button>
+                                                <button id="myBtn">Lihat</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -199,7 +205,7 @@
                 </div>
                 <div class="bayar">
                     <p>Bukti pembayaran :</p>
-                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#ffffff">
                 </div>
                 <div class="note lh-base">
                     <p> <span class="fw-bold">Note :</span> <br>
