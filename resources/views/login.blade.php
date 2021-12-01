@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iofrm</title>
+    <title>Login</title>
 
     {{-- template bootstrap --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -21,26 +21,31 @@
                     <div class="form-items">
                         <div class="website-logo-inside">
                             <a href="index.html">
-                                <div class="logo">
-                                    <img class="logo-size" src="images/logo-light.svg" alt="">
-                                </div>
+                                {{-- <img class="logo-size" class="img-thumbnail" src="style/images/logo.png" alt="" style="width: 200px"> --}}
+                                <p class="fw-bold" style="
+                                font-family: Poppins;
+                                font-weight: 600;
+                                font-size: 48px;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                color: #FFFFFF;
+                                ">Minjemin<span style="color: #5DEC96">.</span></p>
                             </a>
                         </div>
-                        <h3>Get more things done with Loggin platform.</h3>
-                        <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                        {{-- <h3>Get more things done with Loggin platform.</h3>
+                        <p>Access to the most powerfull tool in the entire design and web industry.</p> --}}
                         <div class="page-links">
-                            <a href="login12.html" class="active">Login</a><a href="register12.html">Register</a>
+                            <a href="login12.html" class="active">Masuk</a>
                         </div>
                         <form>
+                            @csrf
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget12.html">Forget password?</a>
+                                <button id="submit" type="submit" class="ibtn">Login</button>
                             </div>
                         </form>
-                        <div class="other-links">
-                            <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
-                        </div>
                     </div>
                 </div>
             </div>
