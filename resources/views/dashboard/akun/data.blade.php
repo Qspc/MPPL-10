@@ -119,7 +119,7 @@
                         </div>
                         
                         <div class="row d-flex justify-content-center align-content-center my-5">
-                            <button id="myBtn" type="" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
+                            <button id="myBtn" type="submit" class="col-2 py-2 border-0 rounded-1 fw-bold" style="
                                 color: #4ABD78;
                                 background-color: #F3FFE4;
                                 box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.03), 3px 3px 8px rgba(0, 0, 0, 0.2);
