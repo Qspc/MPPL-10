@@ -139,13 +139,17 @@ class OrderController extends Controller
                 $path = $request->file('ktp')->storeAs('uploads/ktp', $fileName);
                 $validasi['ktp']=$path;
             }
+            
             $response = Order::find($id);
             $response -> update($validasi);
+
             return response()->json([
                 'success'=> true,
                 'message' => 'success',
                 'data'=>$response
             ]);
+            // pinjaman::create($response);
+            // return redirect('/akun');
         } catch(\Throwable $e){
             return response()->json([
                 'success'=> 'Err',
