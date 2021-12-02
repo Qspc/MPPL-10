@@ -50,15 +50,19 @@ class OrderController extends Controller
             'no_hp_ayah'=>'required|numeric',
             'no_hp_ibu'=>'required|numeric',
             'ktm'=> 'required|file|mimes:png,jpg,jpeg,gif',
-            'kk'=> 'required|file|mimes:png,jpg,jpeg,gif'
+            'kk'=> 'required|file|mimes:png,jpg,jpeg,gif',
+            'ktp'=> 'required|file|mimes:png,jpg,jpeg,gif'
         ]);
         try{
             $fileName = time().$request->file('ktm')->getClientOriginalName();
             $fileName = time().$request->file('kk')->getClientOriginalName();
+             $fileName = time().$request->file('ktp')->getClientOriginalName();
             $path = $request->file('ktm')->storeAs('uploads/ktm',$fileName);
             $path = $request->file('kk')->storeAs('uploads/kk',$fileName);
+            $path = $request->file('ktp')->storeAs('uploads/ktp',$fileName);
             $validasi['ktm']=$path;
             $validasi['kk']=$path;
+            $validasi['ktp']=$path;
             $response = Order::create($validasi);
             return response()->json([
                 'success'=> true,
@@ -116,7 +120,8 @@ class OrderController extends Controller
             'no_hp_ayah'=>'required|numeric',
             'no_hp_ibu'=>'required|numereic',
             'ktm'=> '',
-            'kk'=> ''
+            'kk'=> '',
+            'ktp'=>''
         ]);
         try{
             if($request->file('ktm')){
@@ -128,6 +133,11 @@ class OrderController extends Controller
                 $fileName = time().$request->file('kk')->getClientOriginalName();
                 $path = $request->file('kk')->storeAs('uploads/kk', $fileName);
                 $validasi['kk']=$path;
+            }
+             if ($request->file('ktp')) {
+                $fileName = time().$request->file('ktp')->getClientOriginalName();
+                $path = $request->file('ktp')->storeAs('uploads/ktp', $fileName);
+                $validasi['ktp']=$path;
             }
             $response = Order::find($id);
             $response -> update($validasi);
