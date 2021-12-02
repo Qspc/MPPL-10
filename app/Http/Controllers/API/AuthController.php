@@ -38,8 +38,9 @@ class AuthController extends Controller
     {
         if (!Auth::attempt($request->only('email', 'password')))
         {
-            return response()
-                ->json(['message' => 'Unauthorized'], 401);
+            return redirect("login")->withSuccess('Sorry! You have entered invalid credentials');
+            // return response()
+            //     ->json(['message' => 'Unauthorized'], 401);
         }
 
         $user = User::where('email', $request['email'])->firstOrFail();
@@ -54,9 +55,9 @@ class AuthController extends Controller
     public function logout()
     {
         auth()->user()->tokens()->delete();
-
-        return [
-            'message' => 'You have successfully logged out and the token was successfully deleted'
-        ];
+        return Redirect('login');
+        // return [
+        //     'message' => 'You have successfully logged out and the token was successfully deleted'
+        // ];
     }
 }
