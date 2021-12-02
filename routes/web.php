@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +14,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::post('submit-login', [AuthController::class, 'postLogin'])->name('login.post'); 
+Route::get('registration', [AuthController::class, 'registration'])->name('register');
+Route::post('submit-registration', [AuthController::class, 'postRegistration'])->name('register.post'); 
+Route::get('dashboard', [AuthController::class, 'dashboard.home.main']); 
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
 Route::get('/dashboard', function () {
     return view('dashboard.home.main');
 });
+
+Route::post('/dashboard', function () {
+    return view('dashboard.home.main');
+});
+
 Route::get('/pinjaman', function () {
     return view('dashboard.pinjaman.pinjam');
 });
 Route::get('/akun', function () {
+    return view('dashboard.akun.data');
+});
+
+Route::post('/akun', function () {
     return view('dashboard.akun.data');
 });
 
@@ -36,6 +53,10 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/haha', function () {
-    return view('coba');
-});
+// Route::get('/haha', function () {
+//     return view('tes');
+// });
+
+
+
+

@@ -33,5 +33,8 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/logout', [App\Http\Controllers\API\AuthController::class, 'logout']);
 });
 
-Route::resource('order', OrderController::class);
-Route::post('/order/{id}', [OrderController::class,'update']);
+// Route::resource('/order', OrderController::class);
+// Route::post('/order/{id}', [OrderController::class,'update']);
+
+Route::post('order',[OrderController::class, 'store']);
+Route::put('/order/{id}', [OrderController::class,'update']);
