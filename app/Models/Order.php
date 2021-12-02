@@ -11,7 +11,7 @@ class Order extends Model
     use HasFactory;
     public $primaryKey = 'id';
     protected $fillable = [
-        'status', 'ktm', 'kk','nama_lengkap','nim','agama','ttl','jenis_kelamin','no_hp', 'nama_ayah','nama_ibu','no_hp_ayah','no_hp_ibu'
+        'status', 'ktm', 'kk','ktp''nama_lengkap','nim','agama','ttl','jenis_kelamin','no_hp', 'nama_ayah','nama_ibu','no_hp_ayah','no_hp_ibu'
     ];
 
     static function getOrder(){
