@@ -62,58 +62,58 @@
                                 
                             <div class="col-5 my-2 fw-bold">
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Lengkap :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">Nama Lengkap :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="nama_lengkap" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">NIM :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">NIM :</label>
+                                    <input type="numeric" class="form-control border-top-0 border-end-0 border-start-0 " id="nim" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Tempat, tanggal lahir :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">Tempat, tanggal lahir :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="ttl" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Jenis kelamin :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">Jenis kelamin :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="jenis_kelamin" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Agama :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
+                                    <label for="" class="form-label" style="font-size: 18px">Agama :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="agama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu tanda Pengenal (KTP)</label>
-                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                    <label for="" class="form-label" style="font-size: 18px">Kartu tanda Pengenal (KTP)</label>
+                                    <input class="form-control border-0" type="file" id="ktp" style="background-color:#F3FFE4">
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu tanda Mahasiswa (KTM)</label>
-                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                    <label for="" class="form-label" style="font-size: 18px">Kartu tanda Mahasiswa (KTM)</label>
+                                    <input class="form-control border-0" type="file" id="kk" style="background-color:#F3FFE4">
                                 </div>
                             </div>
                             <div class="col-5 my-2 fw-bold">
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">No HP :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">No HP :</label>
+                                    <input type="numeric" class="form-control border-top-0 border-end-0 border-start-0 " id="no_hp" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Ayah :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">Nama Ayah :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="nama_ayah" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Nama Ibu :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">Nama Ibu :</label>
+                                    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="nama_ibu" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">No HP ayah :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <label for="" class="form-label" style="font-size: 18px">No HP ayah :</label>
+                                    <input type="numeric" class="form-control border-top-0 border-end-0 border-start-0 " id="no_hp_ayah" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">No HP ibu Ibu :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
+                                    <label for="" class="form-label" style="font-size: 18px">No HP ibu Ibu :</label>
+                                    <input type="numeric" class="form-control border-top-0 border-end-0 border-start-0 " id="no_hp_ibu" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                  
                                 </div>
                                 <div class="point mb-3">
-                                    <label for="nama" class="form-label" style="font-size: 18px">Kartu Keluarga (KK)</label>
-                                    <input class="form-control border-0" type="file" id="formFile" style="background-color:#F3FFE4">
+                                    <label for="" class="form-label" style="font-size: 18px">Kartu Keluarga (KK)</label>
+                                    <input class="form-control border-0" type="file" id="kk" style="background-color:#F3FFE4">
                                 </div>
                             </div>
                         </div>
