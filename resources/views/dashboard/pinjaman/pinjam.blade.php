@@ -77,15 +77,15 @@
                             <div class="col-6 my-2 fw-bold">
                                 <div class="point mb-3">
                                     <label for="nama" class="form-label" style="font-size: 18px">Nama Pemilik rekening :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4" required>                                      
                                 </div>
                                 <div class="point mb-3">
                                     <label for="nama" class="form-label" style="font-size: 18px">Nama Bank :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4" required>                                      
                                 </div>
                                 <div class="point mb-3">
                                     <label for="nama" class="form-label" style="font-size: 18px">No Rekening :</label>
-                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4">                                      
+                                    <input type="nama" class="form-control border-top-0 border-end-0 border-start-0 " id="exampleNama" aria-describedby="namaHelp" style="background-color:#F3FFE4" required>                                      
                                 </div>
                             </div>
                             </div>

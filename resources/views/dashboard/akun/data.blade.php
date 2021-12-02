@@ -56,7 +56,7 @@
                         </div> --}}
 
 
-                    <form action="" method="get" >
+                    <form action="/dashboard" method="POST" >
                         @csrf
                         <div class="row justify-content-between mt-3">
                                 
