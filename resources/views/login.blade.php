@@ -21,12 +21,11 @@
             </div> -->
             <div style="background-color:#1B2124" class="form-holder">
                 <div style="background-color:#1B2124" class="form-content">
+                    
+                        <!-- <img src="./style/images/vector_ipb.png" width="300px" height="300px"> -->
+                    
                     <div class="form-items">
-                        <div class="website-logo-inside">
-                            <a href="index.html">
-                                </div>
-                            </a>
-                        </div>
+                        
                         <h1 style="color:white;font-weight:bold" class="white">Minjemin<span style="font-weight:bold;color:rgb(0, 186, 136)">.</span></h1>
                         <!-- <p>Login</p> -->
                         <!-- <p>Access to the most powerfull tool in the entire design and web industry.</p> -->
@@ -34,8 +33,9 @@
                             <!-- <a href="login12.html" class="active">Login</a> -->
                             <!-- <a href="register12.html">Register</a> -->
                         </div>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
+                        <form action="/dashboard" method="POST">
+                            @csrf
+                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required autofocus>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
                                 <button id="submit" type="submit" class="ibtn">Login</button> 
@@ -46,6 +46,7 @@
                             <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
                         </div> -->
                     </div>
+                    <!-- <img class="" src="./style/images/vector_ipb.png" width="350px" height="400px"> -->
                 </div>
             </div>
 <script src="js/jquery.min.js"></script>
