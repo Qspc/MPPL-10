@@ -15,18 +15,21 @@
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationsDropdown" id="notificationsDropdown">
                         </div>
                     </li>
+                    
                     <li class="nav-item nav-divider">
+                      @auth
                         <li class="nav-item">
                             {{-- <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="sidebar" data-target="#user-drawer" style="color: black">
-                            Abbas Zabier
+                              {{ auth()->user()->name }}
                             </a> --}}
                             <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn fw-bold">Abbas Zabier</button>
+                                <button onclick="myFunction()" class="dropbtn fw-bold">{{ auth()->user()->name }}</button>
                                 <div id="myDropdown" class="dropdown-content">
                                   <a href="/">Logout</a>
                                 </div>
                             </div>
                         </li>
+                        @endauth
                     </li>
                 </ul>
             </div>
